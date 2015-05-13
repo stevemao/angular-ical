@@ -1,0 +1,54 @@
+{
+  "name": "angular-ical",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jscs": "^1.8.0",
+    "grunt-karma": "^0.10.1",
+    "grunt-newer": "^1.1.0",
+    "grunt-ng-annotate": "^0.10.0",
+    "grunt-wiredep": "^2.0.0",
+    "jshint-stylish": "^1.0.2",
+    "karma": "^0.12.31",
+    "karma-coffee-preprocessor": "^0.2.1",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "description": "angular-ical is an Angular factory wrapper for ical.js (https://github.com/mozilla-comm/ical.js)",
+  "main": "dist/js/angular-ical.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevemao/angular-ical.git"
+  },
+  "keywords": [
+    "angular",
+    "wrapper",
+    "calendar",
+    "iCalendar",
+    "jCal",
+    "vCard",
+    "jCard",
+    "parser"
+  ],
+  "author": "Steve Mao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevemao/angular-ical/issues"
+  },
+  "homepage": "https://github.com/stevemao/angular-ical#readme"
+}
