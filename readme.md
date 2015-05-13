@@ -4,7 +4,9 @@
 
 `ICAL` doesn't have to be accessed by the `window` object. Use dependency injection instead. Great for unit test and do everything in the Angular manner.
 
-Add `ngIcal` as a module dependency to your app after including the `angular-ical.js` script.
+Add `ngIcal` as a module dependency to your app after including the `angular-ical.js` script and inject `ical` anywhere you need.
+
+**NOTE**: the service `ical` is the same object as `window.ICAL`. We prefer camelCase in Angular for objects.
 
 
 [npm-image]: https://badge.fury.io/js/angular-ical.svg
