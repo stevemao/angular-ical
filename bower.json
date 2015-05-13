@@ -1,6 +1,6 @@
 {
   "name": "angular-ical",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "dependencies": {
     "angular": ">1.2.0",
     "ical": "git@github.com:mozilla-comm/ical.js.git"
