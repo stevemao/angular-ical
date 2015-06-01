@@ -21,7 +21,7 @@ module.exports = function(config) {
       // bower:js
       'bower_components/es5-shim/es5-shim.js',
       'bower_components/angular/angular.js',
-      'bower_components/ical/build/ical.js',
+      'bower_components/ical.js/build/ical.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'src/scripts/**/*.js',
